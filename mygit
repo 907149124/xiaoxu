@@ -1,3 +1,10 @@
+3.
+var data=new Date();
+data.setDate(1);
+data.setHours(0);
+data.setSeconds(0);
+data.setMinutes(0);
+console.log(data.getTime())
 4.
 第一种方法
 let newarr = [...new Set([8,2,3,3,4,17,6,17,,25,])]
@@ -12,4 +19,3 @@ function del(x){
     return newarr
 }
 del(arr)
-5.
