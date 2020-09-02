@@ -1,4 +1,15 @@
-111111111111
-22222
-3333
-444
+4.
+第一种方法
+let newarr = [...new Set([8,2,3,3,4,17,6,17,,25,])]
+第二种
+let arr = [8,2,3,3,4,17,6,17,,25,]
+function del(x){
+  let newarr = [];
+  for(let i = 0;i<x.length;i++){
+    if(newarr.indexOf(x[i]) == -1){
+        newarr.push(x[i])
+    }
+    return newarr
+}
+del(arr)
+5.
